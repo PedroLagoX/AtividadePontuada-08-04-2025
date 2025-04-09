@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/desenvolvedor")
+@RequestMapping("/dev")
 public class Desenvolvedor {
     @GetMapping
-    public String exibirMensagem() {
-        return "Desenvolvedor: Júlio César";
+    public String mostrarMensagem() {
+        return "Desenvolvedor: Pedro Lago";
     }
 }

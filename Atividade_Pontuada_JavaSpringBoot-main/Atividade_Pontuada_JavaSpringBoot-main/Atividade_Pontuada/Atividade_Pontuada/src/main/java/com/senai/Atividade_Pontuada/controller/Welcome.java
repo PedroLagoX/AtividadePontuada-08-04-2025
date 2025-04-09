@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/welcome")
 public class Welcome {
     @GetMapping
-    public String exibirMensagem() {
-        return "Bem-vindo ao meu Spring Boot";
+    public String mostrarMensagem() {
+        return "Bem-vindo a minha API";
     }
 }
